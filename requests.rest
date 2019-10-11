@@ -1,0 +1,9 @@
+# delete http://localhost:3001/api/persons/5
+# get http://localhost:3001/api/persons
+post http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Sherin New Person",
+    "number": "1"
+}
